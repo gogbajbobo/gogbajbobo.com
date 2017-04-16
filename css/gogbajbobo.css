@@ -1,0 +1,27 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.info-text {
+    padding: 40px 10px;
+    font-size: 3em;
+    font-weight: 200;
+}
+
+span.font-italianno {
+    font-family: 'Italianno', cursive;
+    font-size: 2em;
+}
+
+span.font-cinzel {
+    font-family: 'Cinzel', serif;
+    font-size: 1.1em;
+}
+
+@media (max-width: 550px) {
+
+    .info-text {
+        font-size: 2em;
+    }
+
+}
