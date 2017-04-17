@@ -18,6 +18,14 @@ span.font-cinzel {
     font-size: 1.1em;
 }
 
+span.nothingarian .mirror {
+    display: inline-block;
+    -ms-transform: scale(1, -1);
+    -webkit-transform: scale(1, -1);
+    transform: scale(1, -1);
+    padding-bottom: 18px;
+}
+
 @media (max-width: 550px) {
 
     .info-text {
