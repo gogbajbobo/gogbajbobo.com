@@ -23,7 +23,7 @@ span.nothingarian .mirror {
     -ms-transform: scale(1, -1);
     -webkit-transform: scale(1, -1);
     transform: scale(1, -1);
-    padding-bottom: 18px;
+    padding-bottom: 0.7em;
 }
 
 @media (max-width: 550px) {
