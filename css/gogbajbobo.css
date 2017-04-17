@@ -33,3 +33,11 @@ span.nothingarian .mirror {
     }
 
 }
+
+@media (max-width: 350px) {
+
+    .info-text {
+        font-size: 1.5em;
+    }
+
+}
