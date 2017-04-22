@@ -26,6 +26,13 @@ span.nothingarian .mirror {
     padding-bottom: 0.7em;
 }
 
+span.nothingarian .mirror:hover {
+    animation-name: rising;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+
 @media (max-width: 550px) {
 
     .info-text {
@@ -41,3 +48,17 @@ span.nothingarian .mirror {
     }
 
 }
+
+@keyframes rising {
+    from {
+        -ms-transform: scale(1, -1);
+        -webkit-transform: scale(1, -1);
+        transform: scale(1, -1);
+    }
+    to {
+        -ms-transform: scale(1, 1);
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+}
+
