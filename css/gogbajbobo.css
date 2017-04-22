@@ -1,3 +1,11 @@
+:root {
+    --rolling-start: matrix(1, 0, 0.1, -0.75, 0, 0);
+    --rolling-middle: matrix(1, 0, 0, -1, 0, 0);
+    --rolling-finish: matrix(1, 0, -0.1, -0.75, -0, 0);
+    --rising-from: scale(1, -1);
+    --rising-to: scale(1, 1);
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -51,14 +59,14 @@ span.nothingarian .mirror:hover {
 
 @keyframes rising {
     from {
-        -ms-transform: scale(1, -1);
-        -webkit-transform: scale(1, -1);
-        transform: scale(1, -1);
+        -ms-transform: var(--rising-from);
+        -webkit-transform: var(--rising-from);
+        transform: var(--rising-from);
     }
     to {
-        -ms-transform: scale(1, 1);
-        -webkit-transform: scale(1, 1);
-        transform: scale(1, 1);
+        -ms-transform: var(--rising-to);
+        -webkit-transform: var(--rising-to);
+        transform: var(--rising-to);
     }
 }
 
